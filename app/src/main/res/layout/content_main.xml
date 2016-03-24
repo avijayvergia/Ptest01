@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/parthenon"
+            android:scaleType="centerCrop"
+            android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internal Lawsuit - Call for Compromise"
+                android:textSize="17sp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="#212121"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29 May 2015, 10:00 - 11:00 a.m."
+                android:textSize="12sp"
+                android:textColor="#212121"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maninagar"
+                android:textSize="12sp"
+                android:textColor="#212121"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ahmedabad, Gujarat 380008"
+                android:textSize="12sp"
+                android:textColor="#212121"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:paddingLeft="20dp"
+            android:textSize="12sp"
+            android:paddingTop="7dp"
+            android:text="Sometimes, the term lawsuit is in reference to a civil action brought in a court of law in which a plaintiff, a party who claims to have incurred loss as a result of a defendant's actions, demands a legal or equitable remedy. The defendant is required to respond."
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:tint="#2196F3"
+                android:src="@drawable/ic_directions_black_24dp"
+                android:layout_weight="0.04" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GET DIRECTIONS"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:textColor="#2196F3"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
